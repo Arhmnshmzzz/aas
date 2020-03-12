@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    * {box-sizing:border-box}
+
+}
+  
+
+header{
+    overflow: hidden;
+}
+.left {
+    height: 600px;
+    
+    float: left;
+    width: 40%;
+    overflow: hidden;
+}
+
+.right {
+    background-color: darkorange;
+    color:white;
+    float: right;
+    height:600px;
+    width: 60%;
+    overflow: hidden;
+}
+img {
+    border-radius: 50%;
+  }
+ .right h3 {
+
+    background-color: black;
+    font-size: 50px;
+    
+ }
+ .right h4 {
+    
+ }
+
+ section{
+     overflow: hidden;
+ }
+ section .left {
+     float: left;
+     background-color: white;
+     height: 500px;
+     overflow: hidden;
+
+ }
+
+
+ section .left h1 {
+     
+   background-color: orangered;
+ }
+
+ section .right{
+
+    float: right;
+    background-color: white;
+    height: 500px;
+    overflow: hidden;
+    color: black;
+    
+ }
+
+ section .right h1 {
+       color: black;
+background-color: orangered;
+ }
+ 
+ section .right h2 {
+     color: black;
+ }
+ section .right p h2{
+     
+ }
+
+ article {
+
+    color: black;
+height: 500px;
+    text-align: center;
+    text-decoration:underline  ;
+    text-decoration-color: orangered;
+ }
+ article h1 {
+     background-color: orangered;
+ }
+ .container {
+    width: 100%; 
+    background-color: #ddd; 
+  }
+  
+  .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  }
+  
+  .html {width: 90%; background-color: rgb(6, 66, 8);}
+  .css {width: 80%; background-color: rgb(32, 200, 144);} 
+  .js {width: 65%; background-color: #2f1210;} 
+  .php {width: 60%; background-color: #808080;} 
